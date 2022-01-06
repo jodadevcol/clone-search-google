@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nueva pestaña</title>
+    <title>Google</title>
+    <link
+      rel="shortcut icon"
+      href="./img/googleg_standard_color_128dp.png"
+      type="image/x-icon"
+    />
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <!-- Library -->
@@ -19,27 +24,82 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+    <!-- Stylee -->
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <main>
-      <div>
-        <div>
-          <div class="logo"></div>
-          <div class="wordmark"></div>
+      <!-- Buttons top -->
+      <div class="buttons-top-container">
+        <div class="buttons-top-box">
+          <div class="tools-google">
+            <div class="tool-item gmail">
+              <p>Gmail</p>
+            </div>
+            <div class="tool-item images">
+              <p>Imágenes</p>
+            </div>
+          </div>
+          <div class="apps-google-container">
+            <div class="apps-google-iframe">
+              <a class="apps-google" href="#">
+                <svg class="gb_Ne" focusable="false" viewBox="0 0 24 24">
+                  <path
+                    d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+                  ></path>
+                </svg>
+              </a>
+              <iframe src="#" frameborder="0" style="display: none"> </iframe>
+            </div>
+            <div class="profile-access-google">
+              <a class="profile-access" href="#">Acceder</a>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- Logo Google -->
+      <div>
+        <img src="./img/google_logo_light_color.png" alt="Google" />
+      </div>
+      <!-- Input search -->
       <div>
         <div>
-          <input
-            type="search"
-            name="search"
-            id="search-id"
-            placeholder="Buscar con Google o introducir una dirección"
-          />
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </div>
+      <!-- Buttons of search -->
       <div>
-        <div></div>
+        <div>
+          <input type="button" value="Buscar con Google" />
+          <a href="#">Me siento con suerte</a>
+          <div>
+            Ofrecido por Google en:
+            <a href="#">English</a>
+          </div>
+        </div>
+      </div>
+      <!-- Footer of Google -->
+      <div>
+        <div>
+          <div>
+            <p>Colombia</p>
+          </div>
+          <div>
+            <div>
+              <a href="#">Sobre Google</a>
+              <a href="#">Publicidad</a>
+              <a href="#">Negocios</a>
+              <a href="#">Cómo funciona la Búsqueda</a>
+            </div>
+            <div>
+              <a href="#">Privacidad</a>
+              <a href="#">Condiciones</a>
+              <a href="#">Preferencias</a>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </body>

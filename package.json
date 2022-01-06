@@ -1,0 +1,22 @@
+{
+  "name": "clone-search-google",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danigadev/clone-search-google.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danigadev/clone-search-google/issues"
+  },
+  "homepage": "https://github.com/danigadev/clone-search-google#readme"
+}

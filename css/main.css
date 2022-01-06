@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  min-height: 34vh;
+  background-color: #202124;
+  color: #bdc1c6;
+}
+
+main {
+  position: relative;
+}
+
+.buttons-top-container {
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  height: 5rem;
+  padding: 0.6rem;
+}
+
+.buttons-top-box {
+  display: flex;
+  align-items: center;
+}
+
+.tools-google {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-right: 1.2rem;
+}
+
+.tool-item {
+  padding-left: 0.92rem;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.apps-google-container {
+  display: flex;
+}
+
+.apps-google {
+  display: inline-block;
+  vertical-align: middle;
+  outline: none;
+  width: 40px;
+  height: 40px;
+}
+
+.apps-google svg {
+  width: 25px;
+  height: 25px;
+  fill: rgba(255, 255, 255, 0.87);
+}
+
+.profile-access-google {
+}
+
+.profile-access {
+  text-decoration: none;
+  color: #202124;
+  background: #8ab4f8;
+  border: 1px solid transparent;
+  box-shadow: none;
+}
